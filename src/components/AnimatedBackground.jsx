@@ -37,6 +37,9 @@ export default function AnimatedBackground() {
     }
 
     // Initialize particles
+    window.addEventListener('resize', resize);
+    resize();
+
     for (let i = 0; i < particleCount; i++) {
       particles.push(new Particle());
     }
@@ -68,8 +71,6 @@ export default function AnimatedBackground() {
       requestAnimationFrame(animate);
     };
 
-    window.addEventListener('resize', resize);
-    resize();
     animate();
 
     return () => {
@@ -77,7 +78,6 @@ export default function AnimatedBackground() {
     };
   }, []);
 
-  // --- THIS IS THE RETURN STATEMENT YOU WERE MISSING ---
   return (
     <canvas 
       ref={canvasRef} 

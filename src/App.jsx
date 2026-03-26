@@ -143,7 +143,7 @@ function App() {
 function PortfolioContent({ isMask = false }) {
   return (
     <div
-      className="max-w-375 mx-auto px-6 md:px-20 relative"
+      className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 relative"
       style={{
         borderLeft:  "1px solid var(--border)",
         borderRight: "1px solid var(--border)",

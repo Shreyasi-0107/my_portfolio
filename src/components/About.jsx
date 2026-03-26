@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Eye, Download, Mail, MapPin, GraduationCap, Briefcase } from "lucide-react";
 
-const cvPath = "/Shreyasi_Saha_cv_(general).pdf";
+const cvPath = "public\\Shreyasi Saha general cv.pdf";
 
 const STATS = [
   { value: "7.48", label: "B.Tech CGPA",    color: "#a78bfa" },

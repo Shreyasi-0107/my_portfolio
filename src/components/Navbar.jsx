@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { RobotSVG } from "./Loader";
 
 const LINKS = ["About", "Education", "Skills", "Projects", "Certificates", "Internship", "Contact"];
-const CV_URL = "/Shreyasi_Saha_cv_(general).pdf";
+const CV_URL = "public\\Shreyasi Saha general cv.pdf";
 
 export default function Navbar({ theme, toggleTheme }) {
   const [active,   setActive]   = useState("");

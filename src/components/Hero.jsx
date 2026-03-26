@@ -253,7 +253,7 @@ export default function Hero() {
               {[
                 { label:"GitHub",   href:"https://github.com/Shreyasi-0107" },
                 { label:"LinkedIn", href:"https://www.linkedin.com/in/shreyasi0104" },
-                { label:"Resume",   href:"/Shreyasi_Saha_cv_(general).pdf" },
+                { label:"Resume",   href:"public\\Shreyasi Saha general cv.pdf" },
               ].map(({ label, href }) => (
                 <a key={label} href={href} target="_blank" rel="noreferrer"
                   className="text-[9px] uppercase tracking-[0.3em] opacity-35 hover:opacity-80 transition-opacity font-mono">

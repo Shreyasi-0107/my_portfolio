@@ -2,18 +2,18 @@ import { useState, useEffect } from 'react';
 import { AnimatePresence } from 'framer-motion';
 import Lenis from 'lenis';
 
-import Hero from './Components/Hero';
-import About from './Components/About';
-import Skills from './Components/Skills';
-import Project from './Components/Project';
-import Contact from './Components/Contact';
-import Education from './Components/Education';
-import Certificates from './Components/Certificates';
-import Internship from './Components/Internship';
-import MyCursor from './Components/MyCursor';
-import Navbar from './Components/Navbar';
-import Loader from './Components/Loader';
-import AnimatedBackground from './Components/AnimatedBackground';
+import Hero from './components/Hero';
+import About from './components/About';
+import Skills from './components/Skills';
+import Project from './components/Project';
+import Contact from './components/Contact';
+import Education from './components/Education';
+import Certificates from './components/Certificates';
+import Internship from './components/Internship';
+import MyCursor from './components/MyCursor';
+import Navbar from './components/Navbar';
+import Loader from './components/Loader';
+import AnimatedBackground from './components/AnimatedBackground';
 
 function App() {
   const [showMain, setShowMain] = useState(false);
@@ -143,7 +143,7 @@ function App() {
 function PortfolioContent({ isMask = false }) {
   return (
     <div
-      className="max-w-[1500px] mx-auto px-6 md:px-20 relative"
+      className="max-w-375 mx-auto px-6 md:px-20 relative"
       style={{
         borderLeft:  "1px solid var(--border)",
         borderRight: "1px solid var(--border)",
